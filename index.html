@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    .grid-container{
+        display: grid;
+        grid-template-rows: repeat(4,120px);
+        grid-auto-rows: minmax(120px,auto);
+    }
+div{
+    padding: 15px;
+    border: 1px solid;
+}
+</style>
+    </head>
+    <body dir="ltr">
+        <div class="grid-container">
+            <div>nav</div>
+            <div>side</div>
+            <div>main</div>
+            <div>footer</div>
+            <div>test</div>
+        </div>
+    </body>
+</html>
